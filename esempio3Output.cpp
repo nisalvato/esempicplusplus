@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -18,5 +19,13 @@ char currency = '$';
 cout << "Number of items: " << items << "\n";
 cout << "Cost per item: " << cost_per_item << currency << "\n";
 cout << "Total cost = " << total_cost << currency << "\n";
+
+//le stringhe non sono primitive in C++
+// ma sono classi definite nella libreria string
+// e quindi vanno incluse
+// per usarle
+// Dichiarazione e inizializzazione di una stringa
+string greeting = "Hello";
+cout << greeting;
 
 }
