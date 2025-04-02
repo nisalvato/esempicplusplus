@@ -1,0 +1,8 @@
+# Ignora file binari
+*.exe
+*.out
+*.o
+*.bin
+
+# Ignora una cartella specifica
+/build/
