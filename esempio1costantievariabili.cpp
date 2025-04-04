@@ -15,11 +15,11 @@ int main() {
     const char SIMBOLO = '#'; // Costante per un carattere specifico
     
     // Dichiarazione e inizializzazione delle variabili con valori di default
-    int numeroIntero = 0;
-    float numeroDecimale = 0.0;
-    double numeroGrande = 0.0;
-    char carattere = 'A';
-    bool veroFalso = false;
+    numeroIntero = 0;
+    numeroDecimale = 0.0;
+    numeroGrande = 0.0;
+    carattere = 'A';
+    veroFalso = false;
     
     
     return 0; // Termine del programma
