@@ -1,0 +1,3 @@
+git add . // aggiunge tutti gli ultimi file al repository locale
+git commit -m "MESSAGGIO del commit" // commit sul repository locale
+git push origin main // push sul repository remoto
